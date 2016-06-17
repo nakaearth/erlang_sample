@@ -1,0 +1,12 @@
+{application, ch03,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ch03_app, []}},
+  {env, []}
+ ]}.
